@@ -1,0 +1,85 @@
+
+.navbar {
+    background-color: rgb(73, 81, 137);
+    border-bottom: 2px #2a2649 solid;
+    min-height: 75px;
+}
+
+.planet-nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 13px;
+    padding-left: 35px;
+}
+
+.link {
+    color: #2a2649;
+    background-color: rgb(195, 195, 196);
+    border: 2px rgb(166, 165, 168) solid;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+body {
+    background-color: rgb(111, 121, 181);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#explore {
+    padding-top: 45px;
+    justify-self: center;
+    color: #524a8f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+#ran-images {
+    padding-top: 50px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.p-description {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.p-image {
+    max-width: 750px;
+    height: auto;
+}
+
+.p-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    border-top-color: #3f396e;
+    border-top-width: 2px;
+    border-top-style: solid;
+    justify-content: center;
+    align-content: center;
+    background-color: #908fb9;
+    min-height: 80px;
+}
+
+.logo-csumb {
+    width: 95px;
+    height: auto;
+}

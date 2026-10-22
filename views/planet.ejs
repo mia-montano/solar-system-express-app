@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Information</title>
+
+    <%- include('partials/includes.ejs') %>
+</head>
+
+<body>
+    <%- include('partials/navbar.ejs') %>
+
+        <div class="p-data">
+            <p class="p-description">
+                <%= planetData.description %>
+            </p>
+
+            <img class="p-image" src="<%= planetData.image %>" />
+
+            <div class="p-facts">
+            <p> Distance from the sun: <%= planetData.distanceFromSun %>
+            </p>
+            <p> Length of a year: <%= planetData.yearLength %>
+            </p>
+            <p> Planet's Radius: <%= planetData.radius %>
+            </p>
+            <p> NASA website: <%= planetData.websiteLink %>
+            </p>
+            <p>
+                <%= planetData.oneEarthDay %>
+            </p>
+            <p> How many moons: <%= planetData.moons %>
+            </p>
+            </div>
+        </div>
+
+        <%- include('partials/footer.ejs') %>
+</body>
+
+</html>
